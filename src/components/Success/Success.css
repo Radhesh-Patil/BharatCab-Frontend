@@ -1,0 +1,36 @@
+/* SuccessPage Styles */
+.success-page-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .success-page-container h1 {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .success-page-container p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .success-page-container .home-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .success-page-container .home-button:hover {
+    background-color: #0056b3;
+  }
+  

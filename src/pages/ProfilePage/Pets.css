@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; 
+    font-size: larger; 
+}
+
+.radio-item input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    height: 20px; 
+    width: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.radio-item input[type="radio"]::before {
+    content: '';
+    position: absolute;
+    width: 14px; 
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.radio-item input[type="radio"]:checked::before {
+    opacity: 1;
+}
+
+.radio-item label {
+    margin-left: 10px; /* Space between the radio button and the text */
+    font-size: larger; /* Larger font size */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: larger; /* Larger font size for the button */
+    background-color: #2facff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+

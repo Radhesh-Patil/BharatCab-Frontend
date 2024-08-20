@@ -1,0 +1,87 @@
+.passenger-selector {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.counter {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.counter-button {
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #00aaff;
+    background-color: white;
+    color: #00aaff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-button:hover {
+    background-color: #00aaff;
+    color: white;
+}
+
+.count {
+    color: #1b4958;
+    font-size: 70px;
+    margin: 0 20px;
+}
+
+.options {
+    font-size: 22px;
+    color: #4a6575;
+    margin: 20px 0;
+}
+
+.option {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.option input {
+    margin-top: 7px;
+    margin-right: 10px;
+    border-radius: 10%
+}
+
+.option label {
+    color: #647a92;
+    font-size: 20px;
+}
+
+.option span {
+    font-size: 15px;
+    color: gray;
+}
+
+.continue-button {
+    background-color: #00A3E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.passenger-selector h2 {
+    color: #1b4958;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}

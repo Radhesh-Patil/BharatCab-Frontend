@@ -1,0 +1,61 @@
+/* PricePage Styles */
+.price-page-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .price-page-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .price-page-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .price-page-container strong {
+    color: #333;
+  }
+  
+  .price-range {
+    margin: 20px 0;
+  }
+  
+  .price-range label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .price-range input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .confirm-button:hover {
+    background-color: #1b6bc0;
+  }
+
+  .row h1 {
+    color: #1b4958;
+    font-size: 35px;
+    text-align:center;
+    margin: 20px;
+  }

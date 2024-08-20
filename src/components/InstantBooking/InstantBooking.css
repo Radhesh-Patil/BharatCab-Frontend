@@ -1,0 +1,77 @@
+/* EnableInstantBooking.css */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 500px;
+  }
+  
+  .content-container {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  h1 {
+    color: #1b4958;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  li i {
+    font-size: 24px;
+    color: #0345A2;
+    margin-right: 10px;
+  }
+  
+  li strong {
+    font-size: 22px;
+    color: #375960;
+  }
+  
+  li p {
+    margin: 0;
+    font-size: 18px;
+    color: #565353;
+  }
+  
+  .primary-button {
+    display: block;
+    font-size: 35px;
+    color: #1a9cd3;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .secondary-link {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .secondary-link:hover, .primary-link:hover {
+    text-decoration: underline;
+  }
+  

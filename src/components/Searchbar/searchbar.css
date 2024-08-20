@@ -1,0 +1,126 @@
+/* Ensure container is centered and elements are spaced evenly */
+.navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c7330; /* Background color of the navbar */
+  padding: 15px; /* Padding inside the navbar */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 4px; /* Margin around the navbar */
+}
+
+/* Flexbox container for equal width and height */
+.container-fluid {
+  display: flex;
+  gap: 10px; /* Space between elements */
+  align-items: center;
+  justify-content: center; /* Center-align items */
+}
+
+/* Style for input fields */
+.form-control {
+  border: 1px solid #ced4da; /* Light grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 12px; /* Padding inside the input */
+  font-size: 16px; /* Font size for input text */
+  width: 200px; /* Fixed width for inputs */
+  height: 40px; /* Fixed height for inputs */
+}
+
+/* Style for the button */
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove default border */
+  color: white; /* Text color */
+  padding: 10px 16px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  height: 40px; /* Fixed height for button */
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 700px) {
+  .container-fluid {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    gap: 10px; /* Space between stacked elements */
+    padding: 20px; /* Padding inside the container */
+  }
+
+  .form-control, .btn-primary {
+    width: 100%; /* Full width on small screens */
+  }
+}
+/* Ensure the navbar is centered and items are spaced evenly */
+.navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out items evenly */
+  background-color: #2c7330; /* Background color of the navbar */
+  padding: 20px; /* Adjusted padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 4px; /* Margin around the navbar */
+  width: 100%; /* Full width of the container */ /* Maximum width for larger screens */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Flexbox container for equal width and height */
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  gap: 10px; /* Space between elements */
+  align-items: center;
+  justify-content: space-between; /* Space out items evenly */
+  width: 100%; /* Full width of the container */
+}
+
+/* Style for input fields */
+.form-control {
+  border: 1px solid #ced4da; /* Light grey border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside the input */
+  font-size: 16px; /* Font size for input text */
+  width: calc(33% - 10px); /* Adjust width to fit three items per row, minus gap */
+  height: 40px; /* Fixed height for inputs */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for the button */
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove default border */
+  color: white; /* Text color */
+  padding: 10px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  height: 40px; /* Fixed height for button */
+  flex: 1; /* Allow button to grow to fill available space */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 700px) {
+  .container-fluid {
+    width:100%; /* Stack elements vertically on small screens */
+    gap: 10px; /* Space between stacked elements */
+    padding: 10px; /* Adjusted padding inside the container */
+  }
+
+  .form-control, .btn-primary {
+    width: 100%; /* Full width on small screens */
+    max-width: none; /* Remove maximum width restriction */
+  }
+}

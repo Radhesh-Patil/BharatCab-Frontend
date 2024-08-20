@@ -1,0 +1,38 @@
+.time-picker-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .time-picker input[type="time"] {
+    width: 50%;
+    padding: 15px;
+    font-size: 2em;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #004d4d;
+  }
+  
+  .continue-button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #537384;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .continue-button:hover {
+    background-color: #0088cc;
+  }
+  
+  .header h1 {
+    color: #1b4958;
+    font-size: 40px;
+    text-align:center;
+    margin: 20px;
+  }
